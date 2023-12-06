@@ -4,6 +4,9 @@
 # Version Information
 
 Information on the updates to the Jupyter notebooks is documented in here.
+## December 6, 2023
+
+Refresh to watsonx.data 1.1. Updated code for Credentials and Magic commands.
 
 ## October 19, 2023
 
