@@ -1,0 +1,25 @@
+site_name: Watsonx.data Sample Notebooks
+# theme:
+#   name: material
+nav:
+  - Notebooks: "wxd-intro.md"
+
+  # Copyright
+copyright: Copyright &copy; 2024 IBM 
+
+# Theme
+theme:
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  logo: wxd-images/IBM_logo®_rev_RGB.png  
+  palette:
+    scheme: default
+    primary: black
+    accent: black
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
