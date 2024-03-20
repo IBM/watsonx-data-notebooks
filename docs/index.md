@@ -22,8 +22,8 @@ If you are not familiar with Jupyter notebooks, select this document to learn ab
 </div>
 <div style="height: 20px"><p style="font-size: 16px; text-align: right">
 <!-- URL -->
-<a href="../notebooks/An_Introduction_to_Jupyter_Notebooks.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>          
+<a href="notebooks/An_Introduction_to_Jupyter_Notebooks.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>          
 </div>        
 </td> 
 <!-- Begin Cell -->   
@@ -38,8 +38,8 @@ All the credentials required to connect to the watsonx.data services can be foun
 </div>  
 <!-- URL -->   
 <div style="height: 20px"><p style="font-size: 16px; text-align: right">
-<a href="../notebooks/Credentials.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>  
+<a href="notebooks/Credentials.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>  
 <!-- End of Cell -->         
 </div></td>
 <!-- End of Row  -->
@@ -58,8 +58,8 @@ The watsonx.data developer edition does not provide a way of adding new users th
 </div>
 <!-- URL -->   
 <div style="height: 20px"><p style="font-size: 16px; text-align: right">
-<a href="../notebooks/Administration.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>          
+<a href="notebooks/Administration.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>          
 <!-- End of Cell -->         
 </div></td>
 <!-- Begin Cell -->
@@ -74,8 +74,8 @@ Presto Magic commands make it easy to run SQL in cells in your Jupyter Notebook 
 </div>
 <!-- URL -->   
 <div style="height: 20px"><p style="font-size: 16px; text-align: right">
-<a href="../notebooks/Presto Magic.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>            
+<a href="notebooks/Presto Magic.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>            
 </div>            
 </td>
 <!-- End of Row  -->
@@ -94,8 +94,8 @@ Watsonx.data is based on open source PrestoDB, a distributed query engine that e
 </div>
 <!-- URL -->   
 <div style="height: 20px"><p style="font-size: 16px; text-align: right">
-<a href="../notebooks/Presto SQL.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>         
+<a href="notebooks/Presto SQL.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>         
 </div>            
 </td>   
 <!-- Begin Cell -->
@@ -110,8 +110,8 @@ If you are not familiar with Jupyter notebooks, select this document to learn ab
 </div>
 <!-- URL -->   
 <div style="height: 20px"><p style="font-size: 16px; text-align: right">
-<a href="../notebooks/Presto Federation.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>               
+<a href="notebooks/Presto Federation.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>               
 </div>        
 </td>
 </tr>
@@ -128,8 +128,8 @@ This notebook will connect to watsonx.data using Python code and the prestodb li
 </div>
 <!-- URL -->   
 <div style="height: 20px"><p style="font-size: 16px; text-align: right">
-<a href="../notebooks/Python Example.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>           
+<a href="notebooks/Python Example.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>           
 </div>        
 </td>    
 <!-- Begin Cell -->
@@ -144,8 +144,8 @@ Pandas dataframes are commonly used in Jupyter notebooks to analyze data. This c
 Note that the certificate required for this notebook is provided in the environment.
 </div>
 <!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="../notebooks/Pandas Example.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>          
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Pandas Example.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>          
 </div>            
 </td>
 </tr>
@@ -161,8 +161,8 @@ Accessing watsonx.data with Spark
 This notebook demonstrates how Spark can connect to watsonx.data and manipulate the data. This system has a local Spark engine that will be used to access watsonx.data. This is a minimally configured Spark engine, but is sufficient to demonstrate the steps needed to connect to watsonx.data and access the data that resides in the catalogs. 
 </div>
 <!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="../notebooks/Spark and watsonxdata Integration.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>           
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Spark and watsonxdata Integration.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>           
 </div>            
 </td>    
 <!-- Begin Cell -->
@@ -176,8 +176,8 @@ Connecting to Db2
 This notebook demonstrates connecting to the local Db2 server using Jupyter notebooks. 
 </div>
 <!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="../notebooks/Db2 Example.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>           
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Db2 Example.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>           
 </div>        
 </td>  
 </tr>
@@ -194,8 +194,8 @@ Connecting to PostgreSQL
 This notebook demonstrates connecting to the local PostgreSQL server using Jupyter notebooks. 
 </div>
 <!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="../notebooks/PostgreSQL Example.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>         
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/PostgreSQL Example.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>         
 </div>            
 </td>
 <!-- Begin Cell -->
@@ -209,8 +209,8 @@ Connecting to MySQL
 This notebook demonstrates connecting to the local MySQL server using Jupyter notebooks. 
 </div>
 <!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="../notebooks/MySQL Example.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>           
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/MySQL Example.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>           
 </div>            
 </td>
 </tr>
@@ -227,8 +227,8 @@ Connecting to Milvus
 This notebook demonstrates connecting to the local Milvus vector database server using a Jupyter notebook.
 </div>
 <!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="../notebooks/Milvus Example.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>          
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Milvus Example.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>          
 </div>            
 </td>
 <!-- Begin Cell -->
@@ -242,8 +242,8 @@ Milvus Example
 Watsonx is IBM's platform committed to injecting generative AI into services that span across customer's data lifecycle. This notebook focusses on the use of watsonx.data as a data repository that is used to feed data into the Milvus vector database. Output from a Milvus query can then be used to generate a prompt into watsonx.ai.
 </div>
 <!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="../notebooks/Milvus Example Usage.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a> 
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Milvus Example Usage.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a> 
 </div>            
 </td> 
 <!-- Begin Row -->
@@ -260,8 +260,8 @@ Running Notebooks on an External Server
 The Jupyter notebooks found in the watsonx.data server can be hosted on an external server. This notebook will provide details of what code needs to be installed to run the examples in another server.
 </div>
 <!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="../notebooks/External_Jupyter.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>     
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/External_Jupyter.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
 </div>        
 </td>   
 <!-- Begin Cell -->
@@ -275,8 +275,8 @@ Presto Magic Source Code
 This notebook contains the Presto magic code that is used in many of the notebooks in this list. Download this notebook (presto.ipynb) and use the <code>%run presto.ipynb</code> command to enable the magic commands in your code. This provides an easy to use interface to access Presto with the <code>%sql</code> command in your notebook.
 </div>
 <!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="../notebooks/presto.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="./wxd-images/arrowblue.png"></a>      
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/presto.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>      
 </div>        
 </td>   
 </tr>    
