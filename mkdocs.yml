@@ -2,7 +2,7 @@ site_name: Watsonx.data Sample Notebooks
 # theme:
 #   name: material
 nav:
-  - Notebooks: "wxd-intro.md"
+  - Notebooks: "index.md"
 
   # Copyright
 copyright: Copyright &copy; 2024 IBM 
