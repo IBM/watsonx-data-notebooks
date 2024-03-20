@@ -1,0 +1,28 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+
+.boxed {
+   background: #F2F2F2;
+   color: black;
+   border: 2px solid blue;
+   margin: 0px auto;
+   width: 100%;
+   padding: 10px;
+   border-radius: 1px;
+   white-space: pre;
+   font-family: "IBM Plex Mono", ui-monospace, courier; 
+}
+
+img[src*='#left'] {
+    float: left;
+}
+img[src*='#right'] {
+    float: right;
+}
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
