@@ -190,9 +190,82 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Notebooks
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="." class="md-nav__link md-nav__link--active">
         Notebooks
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview-notebooks" class="md-nav__link">
+    Overview Notebooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#administration" class="md-nav__link">
+    Administration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#presto-sql" class="md-nav__link">
+    Presto SQL
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#application-access-to-watsonxdata" class="md-nav__link">
+    Application Access to watsonx.data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting-to-other-databases" class="md-nav__link">
+    Connecting to Other Databases
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#milvus-vector-database" class="md-nav__link">
+    Milvus Vector Database
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#support-notebooks" class="md-nav__link">
+    Support Notebooks
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -218,6 +291,63 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview-notebooks" class="md-nav__link">
+    Overview Notebooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#administration" class="md-nav__link">
+    Administration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#presto-sql" class="md-nav__link">
+    Presto SQL
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#application-access-to-watsonxdata" class="md-nav__link">
+    Application Access to watsonx.data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting-to-other-databases" class="md-nav__link">
+    Connecting to Other Databases
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#milvus-vector-database" class="md-nav__link">
+    Milvus Vector Database
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#support-notebooks" class="md-nav__link">
+    Support Notebooks
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -236,6 +366,7 @@
 <p class="admonition-title">Python Libraries</p>
 </div>
 <p>Many of the notebooks below rely on Python libraries to be installed. If you are creating your own Jupyter notebook environment, please refer to the <em>Running Notebooks on an External Server</em> notebook to load the proper libraries. Several of the notebooks use the Presto Magic commands to run SQL against the server. Make sure you have a copy of the Presto notebook in your environment in order for the SQL commands to work.</p>
+<h2 id="overview-notebooks">Overview Notebooks</h2>
 <!-- Begin Table -->
 <div style="font-family: 'IBM Plex Sans';">
 <table style="float:left; width: 650px; border-spacing: 10px; border-collapse: separate; table-layout: fixed; border: none;">
@@ -257,6 +388,46 @@ If you are not familiar with Jupyter notebooks, select this document to learn ab
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>          
 </div>        
 </td> 
+<!-- Begin Cell -->
+<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
+<!-- Title --> 
+<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
+Table of Contents
+</div>
+<!-- Abstract -->
+<div style="height: 180px"><p style="font-size: 14px">
+This notebook contains a table of contents that includes links to all of the notebooks found in this repository. Use this notebook as a convenient way of selecting which notebook you want to work with.
+</div>
+<!-- URL -->   
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Table_of_Contents.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
+</div>        
+</td>  
+<!-- End of Row  -->
+</tr>
+<!-- Start of Row -->
+<tr>  
+<!-- Begin Cell -->
+<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
+<!-- Title --> 
+<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
+Images
+</div>
+<!-- Abstract -->
+<div style="height: 180px"><p style="font-size: 14px">
+Several notebooks refer to images found in the images directory. This link will download a zip file that contains all of the images that are references by the notebooks. Unzip the file and make sure that it is placed into a directory called images in the directory where the Jupyter notebooks are found.
+</div>
+<!-- URL -->   
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/images.zip">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
+</div>        
+</td>   
+</div>
+</table>
+<h2 id="administration">Administration</h2>
+<!-- Begin Table -->
+<div style="font-family: 'IBM Plex Sans';">
+<table style="float:left; width: 650px; border-spacing: 10px; border-collapse: separate; table-layout: fixed; border: none;">
 <!-- Begin Cell -->   
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height:300px; border: 1px solid black;">
 <div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
@@ -274,9 +445,6 @@ Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/ar
 <!-- End of Cell -->         
 </div></td>
 <!-- End of Row  -->
-</tr>
-<!-- Start of Row -->
-<tr>
 <!-- Start of Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height:300px; border: 1px solid black;">
 <div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
@@ -293,6 +461,12 @@ The watsonx.data developer edition does not provide a way of adding new users th
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>          
 <!-- End of Cell -->         
 </div></td>
+</div>
+</table>
+<h2 id="presto-sql">Presto SQL</h2>
+<!-- Begin Table -->
+<div style="font-family: 'IBM Plex Sans';">
+<table style="float:left; width: 650px; border-spacing: 10px; border-collapse: separate; table-layout: fixed; border: none;">
 <!-- Begin Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
 <!-- Title --> 
@@ -309,10 +483,6 @@ Presto Magic commands make it easy to run SQL in cells in your Jupyter Notebook 
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>            
 </div>            
 </td>
-<!-- End of Row  -->
-</tr>
-<!-- Start of Row -->
-<tr>
 <!-- Start of Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height:300px; border: 1px solid black;">    
 <!-- Title --> 
@@ -328,7 +498,11 @@ Watsonx.data is based on open source PrestoDB, a distributed query engine that e
 <a href="notebooks/Presto SQL.ipynb">
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>         
 </div>            
-</td>   
+</td>  
+<!-- End of Row  -->
+</tr>
+<!-- Start of Row -->
+<tr> 
 <!-- Begin Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">    
 <!-- Title --> 
@@ -346,6 +520,12 @@ Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/ar
 </div>        
 </td>
 </tr>
+</div>
+</table>
+<h2 id="application-access-to-watsonxdata">Application Access to watsonx.data</h2>
+<!-- Begin Table -->
+<div style="font-family: 'IBM Plex Sans';">
+<table style="float:left; width: 650px; border-spacing: 10px; border-collapse: separate; table-layout: fixed; border: none;">
 <tr>       
 <!-- Begin Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
@@ -395,7 +575,60 @@ This notebook demonstrates how Spark can connect to watsonx.data and manipulate 
 <div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Spark and watsonxdata Integration.ipynb">
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>           
 </div>            
-</td>    
+</td>  
+<!-- Begin Cell -->
+<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
+<!-- Title --> 
+<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
+Converting CSV files to Parquet
+</div>
+<!-- Abstract -->
+<div style="height: 180px"><p style="font-size: 14px">
+This notebook demonstrates how to convert a CSV file into Parquet Format.
+</div>
+<!-- URL -->   
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Convert CSV to Parquet.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a> 
+</div>            
+</td> 
+</tr>
+<tr>  
+<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
+<!-- Title --> 
+<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
+Create a Kafka Service
+</div>
+<!-- Abstract -->
+<div style="height: 180px"><p style="font-size: 14px">
+Apache Kafka is an open-source distributed event streaming platform. It processes streams of events with joins, aggregations, filters, transformations, and more, using event-time and exactly-once processing. The notebooks below are used to create a Kafka service and demonstrate the connectivity with watsonx.data.
+</div>
+<!-- URL -->   
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Kafka.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
+</div>        
+</td>   
+<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
+<!-- Title --> 
+<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
+RESTful Support
+</div>
+<!-- Abstract -->
+<div style="height: 180px"><p style="font-size: 14px">
+Web services that conform to the REST architectural style, called RESTful Web services, provide interoperability between computer systems on the internet. Presto provides provides RESTful services which are explored in the following notebook.
+</div>
+<!-- URL -->   
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Restful.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
+</div>        
+</td>   
+</tr>    
+</div>
+</table>
+<h2 id="connecting-to-other-databases">Connecting to Other Databases</h2>
+<!-- Begin Table -->
+<div style="font-family: 'IBM Plex Sans';">
+<table style="float:left; width: 650px; border-spacing: 10px; border-collapse: separate; table-layout: fixed; border: none;">
+<tr>       
 <!-- Begin Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
 <!-- Title --> 
@@ -411,9 +644,6 @@ This notebook demonstrates connecting to the local Db2 server using Jupyter note
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>           
 </div>        
 </td>  
-</tr>
-<!-- Begin Row -->
-<tr>  
 <!-- Begin Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
 <!-- Title --> 
@@ -429,6 +659,9 @@ This notebook demonstrates connecting to the local PostgreSQL server using Jupyt
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>         
 </div>            
 </td>
+</tr>
+<!-- Begin Row -->
+<tr>  
 <!-- Begin Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
 <!-- Title --> 
@@ -445,6 +678,12 @@ Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/ar
 </div>            
 </td>
 </tr>
+</div>
+</table>
+<h2 id="milvus-vector-database">Milvus Vector Database</h2>
+<!-- Begin Table -->
+<div style="font-family: 'IBM Plex Sans';">
+<table style="float:left; width: 650px; border-spacing: 10px; border-collapse: separate; table-layout: fixed; border: none;">
 <!-- Begin Row -->
 <tr>  
 <!-- Begin Cell -->
@@ -478,7 +717,28 @@ Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/ar
 </div>            
 </td> 
 <!-- Begin Row -->
-</tr>
+<tr>  
+<!-- Begin Cell -->
+<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
+<!-- Title --> 
+<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">      
+Milvus Attu Console
+</div>
+<!-- Abstract -->
+<div style="height: 180px"><p style="font-size: 14px">
+The Milvus vector database does not ship with a console in watsonx.data. If you want to use the supported console you will need to use this notebook to start up the Attu console.
+</div>
+<!-- URL -->   
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Milvus Console.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>          
+</div>            
+</td>
+</div>
+</table>
+<h2 id="support-notebooks">Support Notebooks</h2>
+<!-- Begin Table -->
+<div style="font-family: 'IBM Plex Sans';">
+<table style="float:left; width: 650px; border-spacing: 10px; border-collapse: separate; table-layout: fixed; border: none;">
 <tr>
 <!-- Begin Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
@@ -495,23 +755,6 @@ The Jupyter notebooks found in the watsonx.data server can be hosted on an exter
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
 </div>        
 </td>   
-<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
-<!-- Title --> 
-<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
-Create a Kafka Service
-</div>
-<!-- Abstract -->
-<div style="height: 180px"><p style="font-size: 14px">
-Apache Kafka is an open-source distributed event streaming platform. It processes streams of events with joins, aggregations, filters, transformations, and more, using event-time and exactly-once processing. The notebooks below are used to create a Kafka service and demonstrate the connectivity with watsonx.data.
-</div>
-<!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Kafka.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
-</div>        
-</td>   
-</tr>    
-<!-- Begin Row -->
-<tr>
 <!-- Begin Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
 <!-- Title --> 
@@ -527,6 +770,9 @@ This notebook contains the Db2 magic code that is used in the Db2 example notebo
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
 </div>        
 </td>   
+</tr>    
+<!-- Begin Row -->
+<tr>
 <!-- Begin Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
 <!-- Title --> 
@@ -543,38 +789,6 @@ Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/ar
 </div>        
 </td>   
 </tr>    
-<!-- Begin Row -->
-<tr>
-<!-- Begin Cell -->
-<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
-<!-- Title --> 
-<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
-Table of Contents
-</div>
-<!-- Abstract -->
-<div style="height: 180px"><p style="font-size: 14px">
-This notebook contains a table of contents that includes links to all of the notebooks found in this repository. Use this notebook as a convenient way of selecting which notebook you want to work with.
-</div>
-<!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Table_of_Contents.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
-</div>        
-</td>   
-<!-- Begin Cell -->
-<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
-<!-- Title --> 
-<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
-Images
-</div>
-<!-- Abstract -->
-<div style="height: 180px"><p style="font-size: 14px">
-Several notebooks refer to images found in the images directory. This link will download a zip file that contains all of the images that are references by the notebooks. Unzip the file and make sure that it is placed into a directory called images in the directory where the Jupyter notebooks are found.
-</div>
-<!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/images.zip">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
-</div>        
-</td>   
 <!-- End of Table -->
 </table>
 </div>
