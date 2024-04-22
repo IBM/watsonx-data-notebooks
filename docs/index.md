@@ -255,7 +255,7 @@ Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/ar
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
 <!-- Title --> 
 <div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
-RESTful Support
+Using RESTful Services in Presto 
 </div>
 <!-- Abstract -->
 <div style="height: 180px"><p style="font-size: 14px">
@@ -266,7 +266,23 @@ Web services that conform to the REST architectural style, called RESTful Web se
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
 </div>        
 </td>   
-</tr>    
+</tr>   
+<tr>    
+<!-- Begin Cell -->
+<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
+<!-- Title --> 
+<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">          
+Using RESTful Services in watsonx.data 
+</div>
+<!-- Abstract -->
+<div style="height: 180px"><p style="font-size: 14px">
+Watsonx.data provides additional RESTful APIs that provide access to underlying engines, buckets, catalogs, schemas, tables and services. This notebook will explore a numer of the RESTful calls, including an example of querying tables through watsonx.data rather than the Presto RESTful API. 
+</div>
+<!-- URL -->   
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Restful-watsonx.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>           
+</div>            
+</td>   
 </div>
 </table>
 
