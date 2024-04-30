@@ -1,5 +1,7 @@
 # Watsonx.data Sample Notebooks
-These series of notebooks demonstrate various features that are found in the watsonx.data database. Click on the arrow to download the notebook to your local machine. Then use the Jupyter notebook file utility to import the notebooks into your environment.
+These series of notebooks demonstrate features that are found in the watsonx.data database. The sample notebooks have been verified with the watsonx.data Developer edition and will require modification to run on watsonx.data clusters or service offerings.
+
+Click on the arrow to download the notebook to your local machine. Then use the Jupyter notebook file utility to import the notebooks into your environment.
 
 !!! info "Python Libraries"
 
@@ -241,20 +243,6 @@ Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/ar
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
 <!-- Title --> 
 <div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
-Create a Kafka Service
-</div>
-<!-- Abstract -->
-<div style="height: 180px"><p style="font-size: 14px">
-Apache Kafka is an open-source distributed event streaming platform. It processes streams of events with joins, aggregations, filters, transformations, and more, using event-time and exactly-once processing. The notebooks below are used to create a Kafka service and demonstrate the connectivity with watsonx.data.
-</div>
-<!-- URL -->   
-<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Kafka.ipynb">
-Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
-</div>        
-</td>   
-<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
-<!-- Title --> 
-<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
 Using RESTful Services in Presto 
 </div>
 <!-- Abstract -->
@@ -265,9 +253,7 @@ Web services that conform to the REST architectural style, called RESTful Web se
 <div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Restful.ipynb">
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
 </div>        
-</td>   
-</tr>   
-<tr>    
+</td>    
 <!-- Begin Cell -->
 <td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
 <!-- Title --> 
@@ -341,6 +327,43 @@ Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/ar
 </div>            
 </td>
 </tr>
+</div>
+</table>
+
+## Kafka Support
+
+<!-- Begin Table -->
+<div style="font-family: 'IBM Plex Sans';">
+<table style="float:left; width: 650px; border-spacing: 10px; border-collapse: separate; table-layout: fixed; border: none;">
+<!-- Begin Cell -->   
+<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height:300px; border: 1px solid black;">
+<!-- Title --> 
+<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
+Create a Kafka Service
+</div>
+<!-- Abstract -->
+<div style="height: 180px"><p style="font-size: 14px">
+Apache Kafka is an open-source distributed event streaming platform. It processes streams of events with joins, aggregations, filters, transformations, and more, using event-time and exactly-once processing. The notebooks below are used to create a Kafka service and demonstrate the connectivity with watsonx.data.
+</div>
+<!-- URL -->   
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Kafka.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
+</div>        
+</td>   
+<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height:300px; border: 1px solid black;">
+<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
+<!-- Title -->
+Kafka Console
+</div>
+<!-- Abstract -->
+<div style="height: 180px"><p style="font-size: 14px">
+UI for Apache Kafka is a free, open-source web UI to monitor and manage Apache Kafka clusters. It is a lightweight dashboard that makes it easy track key metrics of your Kafka clusters, including Brokers, Topics, Partitions, Production, and Consumption. 
+</div>
+<!-- URL -->   
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Kafka Console.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>     
+</div>         
+</td>
 </div>
 </table>
 
