@@ -419,7 +419,21 @@ The Milvus vector database does not ship with a console in watsonx.data. If you 
 <!-- URL -->   
 <div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Milvus Console.ipynb">
 Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a>          
-</div>            
+</div>   
+<!-- Begin Cell -->
+<td style="padding: 10px; text-align:left; vertical-align: text-top; background-color:#F7F7F7; width: 300px; height: 300px; border: 1px solid black;">
+<!-- Title --> 
+<div style="height: 40px"><p style="font-size: 18px;line-height: 1.2">
+Open WebUI and Ollama
+</div>
+<!-- Abstract -->
+<div style="height: 180px"><p style="font-size: 14px">
+ Ollama is an open-source project that serves as a platform for running LLMs (i.e., IBM Instructlab, Llama 3, Mistral, Gemma 2) on a local machine. Ollama is accessed via Open WebUI, which is an extensible, self-hosted interface for AI. This notebook installs these services in your environment to demonstrate prompt usage.
+</div>
+<!-- URL -->   
+<div style="height: 20px"><p style="font-size: 16px; text-align: right"><a href="notebooks/Ollama.ipynb">
+Download&nbsp;<img style="display: inline-flex; float:right;" src="wxd-images/arrowblue.png"></a> 
+</div>                    
 </td>
 </div>
 </table>
